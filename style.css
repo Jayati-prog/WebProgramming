@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #0c6e53d9;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+table tr th {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    background-color: #c000ff;
+}
+
+table tr td {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+table tr {
+    background-color: rgba(223, 17, 178, 0.329);
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffccff;
+}
+
+table tr td a {
+    display: block;
+    text-decoration: none;
+    color: rgb(43, 55, 226);
+    font-weight: bold;
+}
+
+table tr td a:visited {
+    color: black;
+}
+
+table tr td a:hover {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background: #0c6e53d9;
+    color: white;
+}
