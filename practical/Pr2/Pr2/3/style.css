@@ -36,6 +36,11 @@ table tr td a:visited{
 table tr td a:hover {
     color: white;
 }
+
+table{
+  width: 100%;
+}
+
 p {
     text-align: center;
     font-size: 25px;
