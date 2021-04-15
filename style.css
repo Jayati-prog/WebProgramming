@@ -2,12 +2,21 @@
     padding: 0;
     margin: 0;
 }
-
 .header {
     padding: 20px;
     text-align: center;
-    background: #0c6e53d9;
+    background: blueviolet;
     color: white;
+}
+.btns{
+    margin: 20px 10px;
+    margin-left: 40%;
+}
+.btns button{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 table {
@@ -30,9 +39,14 @@ table tr td {
 table tr {
     background-color: rgba(223, 17, 178, 0.329);
 }
-
+table tr:hover {
+    background-color: #c000ff;
+}
 table tr:nth-child(odd) {
     background-color: #ffccff;
+}
+table tr:hover:nth-child(odd) {
+    background-color:#c000ff;
 }
 
 table tr td a {
@@ -53,6 +67,17 @@ table tr td a:hover {
 footer {
     text-align: center;
     padding: 3px;
-    background: #0c6e53d9;
+    background: blueviolet;
     color: white;
+}
+#practicalbtn{
+    background-color:#ffccff;
+}
+#lecturebtn{
+    padding: 10px 5%;
+}
+#Lecture{display: block;}
+#Practicals{display: none;}
+.lists{
+    overflow: auto;
 }
